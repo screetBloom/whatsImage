@@ -5,3 +5,7 @@
 
 
 这里以后会放图像识别相关
+
+
+
+[图像识别借鉴阮一峰](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
