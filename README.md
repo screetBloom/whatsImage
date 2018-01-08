@@ -15,6 +15,8 @@
 这里以后会放一些个人对图像识别相关研究
 
 
+![](http://www.ruanyifeng.com/blogimg/asset/2016/bg2016072205.png)
+
 
 [边缘识别-阮一峰](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
 
