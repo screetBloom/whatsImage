@@ -1,10 +1,12 @@
 # 图像识别入门
 
-![](https://img.shields.io/badge/%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%E5%BA%93-%E6%97%A5%E5%B8%B8%20%7C%20%E6%B5%8B%E8%AF%95%20%7C%20%E8%87%AA%E5%B7%B1%E7%9C%8B-brightgreen.svg)
-这是我的第一个项目
+![](https://img.shields.io/badge/%E5%9B%BE%E5%BD%A2%E5%9B%BE%E5%BD%A2%E7%9B%B8%E5%85%B3-%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB%20%7C%20Three.js%20%7C%20AFrame%20%7C%20SVG-brightgreen.svg)
+
 
 
 ![](https://img.shields.io/badge/Three.js-50%25-brightgreen.svg)
+
+![](https://img.shields.io/badge/SVG-10%25-orange.svg)
 
 
 这里以后会放图像识别相关
