@@ -12,7 +12,7 @@
 -  ![](https://img.shields.io/badge/AFrame-10%25-blue.svg)
 
 
-这里以后会放图像识别相关
+这里以后会放一些个人对图像识别相关研究
 
 
 
