@@ -7,6 +7,9 @@
 
 [点击这里传送](http://115.159.100.155/threeJs/Aframe/sky.html)
 
+效果图：
+
+![](http://7xl4c6.com1.z0.glb.clouddn.com/FvRDQel76JL5UgdKfpmzSCuoqdTT)
 
 
 
