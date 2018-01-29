@@ -58,16 +58,10 @@
 
 ### SVG
 
-使用 `SVG` 标签或是CSS属性 `clip-path` 创建的图形
 
-| Demo link | Description |
-| ------| ------ | 
-| [SVG奇思妙想](http://sbco.cc/demo/svg/html/index.html)  | 使用 `SVG` or `clip-path` 创建的图形 | 
-| [CSS奇思妙想](http://sbco.cc/magicCss/html/index.html) | CSS3奇思妙想，单标签实现各类图形 |
+这里提供一个demo，关于多图形复合型的进度条
+[点击这里查看](http://115.159.100.155/svg/progress/final.html)
 
-由于部分图形使用了 `clip-path` ，兼容性问题，请使用 Chrome 浏览器浏览。
-
-## 使用`svg` 绘制各类统计图形
 
 使用 svg 标签绘制各类百分比图、饼图、loading 图。
 
