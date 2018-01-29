@@ -58,7 +58,7 @@
 
 ### SVG
 
-
+![](http://7xl4c6.com1.z0.glb.clouddn.com/FnXPOn8ImV56GF1mV9qm0pVeJyZu)
 这里提供一个demo，关于多图形复合型的进度条
 [点击这里查看](http://115.159.100.155/svg/progress/final.html)
 
