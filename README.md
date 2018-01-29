@@ -41,6 +41,8 @@
 ### Three.js
 这个部分主要讲解的是Three.js的基础入门
 
+[详细博客看这里](https://screetbloom.github.io/2017/08/03/ThreeJs/)
+
 ![](http://7xl4c6.com1.z0.glb.clouddn.com/Fj4cRm4UPZ8X7b0OvkskwA2AY7ni)
 
 
