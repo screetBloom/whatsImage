@@ -51,6 +51,7 @@
 [示例地址](http://115.159.100.155/threeJs/Aframe/sky.html)
 
 这里也贴出一个  krpano的示例
+
 ![](http://7xl4c6.com1.z0.glb.clouddn.com/FmM8E1Zzfnm0K9_QKAWVoEyBTle3)
 
 
