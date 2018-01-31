@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+    svg line {
+        fill: #000;
+        stroke: #000;
+        stroke-width: 1px;
+    }
+
+    .arrow-line {
+        stroke-dasharray: 60;
+        stroke-dashoffset: 60;
+        transition: stroke-dashoffset ease-in .5s .2s;
+    }
+
+    .arrow-head {
+        stroke-dasharray: 9;
+        stroke-dashoffset: -9;
+        transition: stroke-dashoffset ease-in .2s;
+    }
+
+    svg:hover line {
+        stroke-dashoffset: 0;
+    }
+
+    svg:hover .arrow-line {
+        transition: stroke-dashoffset ease-in .5s;
+    }
+
+    svg:hover .arrow-head {
+        transition: stroke-dashoffset ease-in .2s .5s;
+    }
+
+</style>
+
+
+<body>
+
+<svg width="360" height="52" viewBox="0 0 89.4 12.4">
+    <line class="arrow-line" x1="0" y1="6.2" x2="59.6" y2="6.2"></line>
+    <line class="arrow-head" x1="54.7" y1="0.7" x2="60.5" y2="6.5"></line>
+    <line class="arrow-head" x1="54.7" y1="11.7" x2="60.5" y2="5.8"></line>
+</svg>
+
+
+
+
+</body>
+</html>
