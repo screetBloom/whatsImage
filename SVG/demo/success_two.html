@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+
+    .svg_right{
+        width: 160px;
+        height: 80px;
+        position: absolute;
+        top:300px;
+        left:300px;
+    }
+
+    svg line {
+        fill: #0bc06f;
+        stroke: #0bc06f;
+        stroke-width: 10px;
+    }
+
+    .svg_right_left {
+        stroke-dasharray: 60;
+        stroke-dashoffset: 60;
+    }
+
+    .svg_right_right {
+        stroke-dasharray: 170;
+        stroke-dashoffset: 170;
+    }
+
+
+    @keyframes act {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+
+
+
+</style>
+
+
+<body>
+
+<svg class="svg_right">
+
+    <line class="svg_right_left" x1="10" y1="40" x2="30" y2="75"  />
+
+    <line class="svg_right_right" x1="29" y1="70" x2="120" y2='6' />
+
+</svg>
+
+
+
+<script>
+
+    var char = 'http://www.w3.org/2000/svg',
+        line_one = document.getElementsByTagNameNS(char, 'line')[0],
+        line_two = document.getElementsByTagNameNS(char, 'line')[1];
+
+    line_one.style.animation = 'act 1s linear forwards';
+
+    setTimeout("line_two.style.animation = 'act 1s linear forwards';",900)
+
+</script>
+
+
+
+
+
+</body>
+</html>
