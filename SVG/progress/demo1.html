@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+    <meta name="author" content="http://www.softwhy.com/"/>
+    <title>个人实现</title>
+    <style type="text/css">
+        circle {
+            /*transition: transform .25s;*/
+        }
+
+        .ball {
+
+        }
+
+
+        #container{
+            animation:test .8s infinite;
+        }
+
+
+
+        @keyframes test{
+            0%{
+                transform:rotate(0deg);
+            }
+            100%{
+                transform:rotate(360deg);
+            }
+        }
+
+
+        .control{
+            position: absolute;
+            top: 400px;
+            left: 1000px;
+        }
+
+    </style>
+    <script>
+
+
+      window.onload = function () {
+        if (window.addEventListener) {
+          var range = document.querySelector("#range"),
+            circle = document.querySelector("#progress"),
+            ball = document.querySelector("#ball");
+
+          if (range && circle) {
+            range.addEventListener("input", function () {
+              // 按数据求出应该旋转的百分比
+              var percent = this.value / 100,
+
+                // 设置增长的轨迹
+                // 1. 把轨迹圆的周长求出来
+                perimeter = Math.PI * 2 * 170;
+
+              // 2. 设置滚动圆的 实线、虚线的长度,产生动态
+              circle.setAttribute('stroke-dasharray', perimeter * percent + " " + perimeter * (1 - percent));
+
+              // 保证小圆点和圆弧一起移动
+              // 滚动的长度是圆弧长度,根据圆弧算出旋转角度
+              // 1.  圆弧长度 ,角度 = 弧长/(Pi*r) * 180
+              var len = perimeter * percent
+
+              // 2. 算出旋转的角度
+              var deg = len / 170 * 180 / Math.PI
+
+              // 3. 起点旋转到了上面，需要减90度
+              deg -= 90
+
+              //4.  设置小球的旋转角度
+//              ball.setAttribute('transform', 'rotate(' + deg + ',220,220)')
+
+              ball.style.transform = "rotate(" + deg + "deg)"
+
+            });
+
+
+          }
+        }
+      }
+
+    </script>
+</head>
+<body>
+<svg width="600" height="600" viewbox="0 0 600 600">
+
+
+    <!-- 1.  path做轨迹 -->
+    <path d="M 220, 220 m -170, 0 a 170,170 0 1,0 340,0 a 170,170 0 1,0 -340,0" stroke="#D1D3D7"
+          stroke-width="50" fill="none"/>
+
+
+    <g id="container" style="transform-origin: 220px 220px;">
+        <circle
+                cx="220"
+                cy="220"
+                r="170"
+                stroke-width="50"
+                stroke="red"
+                stroke-linecap="round"
+                fill="none"
+                transform="matrix(0,-1,1,0,0,440)"
+                stroke-dasharray="220 1069"
+        >
+        </circle>
+
+        <circle
+                cx="220"
+                cy="220"
+                r="170"
+                stroke-width="34"
+                stroke="blue"
+                fill="none"
+                stroke-linecap="round"
+                stroke-dasharray="0 1200"
+                style="
+                transform:rotate(-18deg);
+                transform-origin: 220px 220px;"
+        >
+        </circle>
+    </g>
+
+
+</svg>
+
+
+
+<!-- 滑动旋转类型 -->
+
+
+<svg width="600" height="600" viewbox="0 0 600 600">
+
+
+    <!-- 1.  path做轨迹 -->
+    <path id="road" d="M 220, 220 m -170, 0 a 170,170 0 1,0 340,0 a 170,170 0 1,0 -340,0" stroke="#D1D3D7"
+          stroke-width="50" fill="none"/>
+
+    <circle id="progress"
+            cx="220"
+            cy="220"
+            r="170"
+            stroke-width="50"
+            stroke="red"
+            stroke-linecap="round"
+            fill="none"
+            transform="matrix(0,-1,1,0,0,440)"
+            stroke-dasharray="0 1069">
+
+    </circle>
+
+    <circle id="ball"
+            cx="220"
+            cy="220"
+            r="170"
+            stroke-width="34"
+            stroke="blue"
+            fill="none"
+            stroke-linecap="round"
+            stroke-dasharray="0 1200"
+            style="
+                transform:rotate(-90deg);
+                transform-origin: 220px 220px;"
+    >
+
+    </circle>
+
+</svg>
+
+<div class="control">
+
+    <p>进度求比例：
+        <input id="range" type="range" min="0" max="100" value="0" style="width:300px;">
+    </p>
+
+</div>
+
+
+
+
+
+</body>
+</html>
