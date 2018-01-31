@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+    svg{
+        height: 600px;
+        width: 600px;
+    }
+    .path{
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 5s linear infinite;
+    }
+
+    @keyframes dash {
+        to{
+            stroke-dashoffset: 50;
+        }
+    }
+
+</style>
+
+<body>
+
+
+
+<svg xmlns='http://www.w3.org/2000/svg' version="1.1">
+<circle class="path" cx="200" cy="200" r="100" stroke="red" stroke-width="2" fill="none" />
+
+</svg>
+
+
+
+</body>
+</html>
