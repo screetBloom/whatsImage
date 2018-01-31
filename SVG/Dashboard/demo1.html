@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        html, body, svg {
+            background:#FFF
+        }
+
+        #satellite circle {
+            fill: #ccc;
+            stroke-width: 1.5px;
+            stroke: #fff;
+        }
+
+        #pointer {
+            fill: #554d3f;
+            transform-origin: center bottom;
+            animation: rotate 10s infinite linear;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(-90deg);
+            }
+            50% {
+                transform: rotate(90deg);
+            }
+            100% {
+                transform: rotate(-90deg);
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="400"
+        height="210"
+        viewBox="0 0 200 105"
+>
+    <g id="dial">
+        <path stroke="#fc6e51" stroke-width="45" d="M 70,48 A 60 60 0 0 0 40,100" />
+        <path stroke="#ffbf08" stroke-width="45" d="M 130,48 A 60 60 0 0 0 70,48" />
+        <path stroke="#33c176" stroke-width="45" d="M 160,100 A 60 60 0 0 0 130,48" />
+    </g>
+
+    <g id="satellite">
+        <path fill="none" stroke="#ccc" stroke-width="0.8" d="M 192,100 A 92 92 0 0 0 8,100" />
+        <circle cx="8" cy="100" r="2.5" />
+        <circle cx="100" cy="8" r="2.5" />
+        <circle cx="192" cy="100" r="2.5" />
+    </g>
+
+    <g id="pointer">
+        <circle cx="100" cy="95" r="5" />
+        <path d="M 92.5 92.5 h 5 v -40 h 5 v 40 zM 92.5 52.5 h 15 L 100 43 z " />
+    </g>
+
+</svg>
+
+
+
+</body>
+</html>
