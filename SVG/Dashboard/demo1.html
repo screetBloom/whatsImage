@@ -34,11 +34,22 @@
             }
         }
 
-        svg{
+        .svg01{
             position: absolute;
             left: 400px;
             top: 200px;
         }
+        .svg02{
+            position: absolute;
+            left: 200px;
+            top: 0px;
+        }
+        .svg03{
+            position: absolute;
+            left: 100px;
+            top: 420px;
+        }
+
 
 
     </style>
@@ -52,6 +63,7 @@
         width="400"
         height="210"
         viewBox="0 0 200 105"
+        class="svg01"
 >
     <!--<g id="dial">-->
         <!--<path stroke="#fc6e51" stroke-width="5" d="M 70,48 A 60 60 0 0 0 40,100" />-->
@@ -73,6 +85,101 @@
     </g>
 
 </svg>
+
+
+<!--   准备工作。扇形  -->
+
+<svg
+        width="200"
+        height="200"
+        viewbox="0 0 200 200"
+        class="svg02"
+>
+
+    <path
+            d="M50 50 L50 100 A50 50 60 0 0 85 75 Z"
+            fill="red"
+    ></path>
+
+</svg>
+
+
+<svg
+        width="500"
+        height="500"
+        viewbox="0 0 500 500"
+        class="svg03"
+>
+
+    <circle
+            cx="250"
+            cy="250"
+            r="100"
+            stroke-width="14"
+            stroke="rgb(228,229,237)"
+            stroke-linecap="round"
+            fill="none"
+            stroke-dasharray="420 630"
+            style="
+            transform:rotate(150deg);
+            transform-origin: 250px 250px;"
+    >
+    </circle>
+
+    <g id="progress">
+        <circle
+                cx="250"
+                cy="250"
+                r="100"
+                stroke-width="14"
+                stroke="rgb(255,97,60)"
+                stroke-linecap="round"
+                fill="none"
+                stroke-dasharray="100 630"
+                style="
+            transform:rotate(150deg);
+            transform-origin: 250px 250px;"
+        >
+        </circle>
+        <circle
+                cx="250"
+                cy="250"
+                r="100"
+                stroke-width="6"
+                stroke="rgb(228,229,237)"
+                stroke-linecap="round"
+                fill="none"
+                stroke-dasharray="0 630"
+                style="
+            transform:rotate(207deg);
+            transform-origin: 250px 250px;"
+        >
+        </circle>
+    </g>
+
+    <g id="point" style="transform-origin: 244px 280px;transform:rotate(-42deg);" >
+        <circle
+                cx="244"
+                cy="280"
+                r="15"
+                fill="rgb(228,229,237)"
+        >
+        </circle>
+        <path d="M 240 220 l-6 60 a10 10 180 0 0 20 0 l-6 -60 a4 4 180 0 0 -8 0" fill="rgb(255,97,60)"></path>
+        <circle
+                cx="244"
+                cy="280"
+                r="3"
+                fill="rgb(228,229,237)"
+        >
+        </circle>
+    </g>
+
+</svg>
+
+
+
+
 
 
 
