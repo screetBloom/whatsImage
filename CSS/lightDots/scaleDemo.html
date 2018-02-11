@@ -6,40 +6,28 @@
 
     <style>
 
-
-
-        .led-box {
-            height: 30px;
-            width: 25%;
+        body{
+            background-color: black
         }
-
-
-
-        /*.led-yellow {*/
-            /*margin: 0 auto;*/
-            /*width: 24px;*/
-            /*height: 24px;*/
-            /*background-color: #FF0;*/
-            /*border-radius: 50%;*/
-            /*box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 12px;*/
-            /*animation: blinkYellow 1s infinite;*/
-        /*}*/
 
         .led-yellow {
             margin: 0 auto;
             width: 24px;
             height: 24px;
-            background-color: #FF0;
+            background-color: #fff;
             border-radius: 50%;
-            box-shadow: rgba(255, 255, 255, 1) 0 -1px 7px 1px, inset #FFFF00 0 -1px 9px, #FF0 0 2px 12px;
+            box-shadow: inset #fff 0 -1px 9px, #fff 0 2px 12px;
             animation: blinkYellow 1s infinite;
         }
 
         @keyframes blinkYellow {
-            from{transform:scale(1)}
-            to{transform:scale(2)}
+            from {
+                transform: scale(1)
+            }
+            to {
+                transform: scale(2)
+            }
         }
-
 
 
     </style>
@@ -50,12 +38,9 @@
 
 <div>
 
-    <div class="led-box">
-        <div class="led-yellow"></div>
-    </div>
+    <div class="led-yellow"></div>
 
 </div>
-
 
 
 </body>
