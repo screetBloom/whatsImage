@@ -11,8 +11,6 @@
         .led-box {
             height: 30px;
             width: 25%;
-            margin: 10px 0;
-            float: left;
         }
 
 
@@ -23,13 +21,13 @@
             height: 24px;
             background-color: #FF0;
             border-radius: 50%;
-            box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 12px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FFFF00 0 -1px 9px, #FF0 0 2px 12px;
             animation: blinkYellow 1s infinite;
         }
 
-        @-webkit-keyframes blinkYellow {
+        @keyframes blinkYellow {
             from { background-color: #FF0; }
-            50% { background-color: #AA0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0; }
+            50% { background-color: #AA0; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #FFFF00 0 -1px 9px, #FF0 0 2px 0; }
             to { background-color: #FF0; }
         }
 
@@ -41,7 +39,7 @@
 <body>
 
 
-<div class="container">
+<div>
 
     <div class="led-box">
         <div class="led-yellow"></div>
