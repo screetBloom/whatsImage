@@ -110,7 +110,7 @@
         }
 
         &_progress {
-            stroke: @font-first;
+            stroke: red;
 
             transition: all 1s;
             transform: rotate(150deg);
@@ -222,7 +222,8 @@
             transform-origin: 244px 260px;
             transition: all 1s;
             &_path {
-                fill: @font-second;
+                fill: #06D6A0;
+
             }
         }
     }
