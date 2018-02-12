@@ -1,6 +1,11 @@
 <template>
     <div class="test">
-      <svg-dashboard class="svg_bg"></svg-dashboard>
+      <svg-dashboard :current-speed="currentSpeed" class="svg_bg"></svg-dashboard>
+      
+      <div style="height: 80px;width: 100%"></div>
+
+      <img src="" alt="">
+      
     </div>
 </template>
 
@@ -20,13 +25,17 @@ import svgDashboard from '../components/dashboard.vue'
     export default {
         data() {
             return {
-
+              currentSpeed : 1,
             }
         },
         mounted(){
-          setTimeout(function () {
-
-          }.bind(this),4000)
+          setInterval(function () {
+            if(this.currentSpeed==4) {
+              this.currentSpeed=0
+            }else{
+              this.currentSpeed++
+            }
+          }.bind(this),1000)
         },
         watch: {
 
