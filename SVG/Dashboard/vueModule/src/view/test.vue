@@ -32,13 +32,13 @@
 		mounted() {
 
 
-			setInterval(function () {
-				if (this.currentSpeed == (this.level - 1)) {
-					this.currentSpeed = 0
-				} else {
-					this.currentSpeed++
-				}
-			}.bind(this), 1000)
+//			setInterval(function () {
+//				if (this.currentSpeed == (this.level - 1)) {
+//					this.currentSpeed = 0
+//				} else {
+//					this.currentSpeed++
+//				}
+//			}.bind(this), 1000)
 
 
 		},
