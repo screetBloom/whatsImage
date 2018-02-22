@@ -11,11 +11,11 @@
 			<circle
 				cx="100"
 				cy="100"
-				r="100"
+				r="90"
 				stroke-width="14"
 				stroke-linecap="round"
 				fill="none"
-				stroke-dasharray="420 630"
+				stroke-dasharray="378 630"
 				class="container_path"
 			>
 			</circle>
@@ -25,7 +25,7 @@
 					:style="{'stroke-dasharray':''+lineData+' 630'}"
 					cx="100"
 					cy="100"
-					r="100"
+					r="90"
 					stroke-width="14"
 					stroke-linecap="round"
 					fill="none"
@@ -37,7 +37,7 @@
 					:style="{'transform':'rotate3d(0,0,1,'+circleData+'deg)','-webkit-transform':'rotate3d(0,0,1,'+circleData+'deg)'}"
 					cx="100"
 					cy="100"
-					r="100"
+					r="90"
 					stroke-width="6"
 					stroke-linecap="round"
 					fill="none"
@@ -254,7 +254,7 @@
 				},
 				// 仪表盘重点
 				endData: {
-					line: 420,
+					line: 378,
 					circle: 390,
 					point: 114
 				}
