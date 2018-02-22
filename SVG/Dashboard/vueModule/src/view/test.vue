@@ -2,9 +2,9 @@
 	<div class="test">
 		<svg-dashboard :current-speed="currentSpeed" :level="level" class="svg_bg"></svg-dashboard>
 
-		<div style="height: 80px;width: 100%"></div>
+		<!--<div style="height: 80px;width: 100%"></div>-->
 
-		<img src="" alt="">
+		<!--<img src="" alt="">-->
 
 	</div>
 </template>
@@ -13,7 +13,22 @@
 
 	.svg_bg {
 		background-color: black;
+		/*height: 100%;*/
+		/*width: 100%;*/
 	}
+
+	.test{
+		height: 300px;
+		width: 300px;
+		background-color: #42b983;
+	}
+	/*.svg_test{*/
+		/*width:198px;*/
+		/*height:180px*/
+	/*}*/
+
+
+
 
 </style>
 
