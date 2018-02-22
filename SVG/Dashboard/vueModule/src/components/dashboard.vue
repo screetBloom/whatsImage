@@ -1,8 +1,8 @@
 <template>
 	<svg
-		width="440"
-		height="360"
-		viewbox="0 0 440 360"
+		width="220"
+		height="180"
+		viewbox="0 0 220 180"
 		class="cps-dashboard"
 	>
 		<!-- svg内容区，这里包裹一层是为了方便整体平移 -->
