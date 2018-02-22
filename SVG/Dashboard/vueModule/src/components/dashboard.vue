@@ -49,30 +49,30 @@
 			<!-- 刻度线部分 -->
 			<g class="container_line">
 				<!-- 大刻度线条,旋转做法  -->
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item01"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item02"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item03"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item04"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item05"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item06 "/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item07"/>
-				<line x1="32" y1="118" x2="25" y2="120" class="container_line_item08"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item01"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item02"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item03"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item04"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item05"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item06 "/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item07"/>
+				<line x1="39" y1="118" x2="32" y2="120" class="container_line_item08"/>
 
 				<!-- 小刻度线，旋转做法 -->
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY01 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY02 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY03 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY04 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY05 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY06 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY07 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY08 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY09 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY10 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY11 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY12 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY13 itemY"/>
-				<line x1="32" y1="109" x2="25" y2="109" class="container_line_itemY14 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY01 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY02 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY03 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY04 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY05 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY06 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY07 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY08 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY09 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY10 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY11 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY12 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY13 itemY"/>
+				<line x1="39" y1="109" x2="32" y2="109" class="container_line_itemY14 itemY"/>
 
 			</g>
 			<!-- 指针部分 -->
