@@ -25,7 +25,7 @@
 	export default {
 		data() {
 			return {
-				currentSpeed: 0,
+				currentSpeed: 5,
 				level: 6
 			}
 		},
