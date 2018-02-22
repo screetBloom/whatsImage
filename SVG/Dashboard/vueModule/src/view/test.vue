@@ -1,10 +1,16 @@
 <template>
-	<div class="test">
-		<svg-dashboard :current-speed="currentSpeed" :level="level" class="svg_bg"></svg-dashboard>
+	<div>
+		<div class="test">
+			<svg-dashboard :current-speed="currentSpeed" :level="level" class="svg_bg"></svg-dashboard>
+		</div>
 
-		<!--<div style="height: 80px;width: 100%"></div>-->
+		<div style="height: 80px;width: 100%"></div>
 
 		<!--<img src="" alt="">-->
+
+		<div class="test">
+			<svg-dash :current-speed="currentSpeed" :level="level" class="svg_bg"></svg-dash>
+		</div>
 
 	</div>
 </template>
@@ -13,8 +19,6 @@
 
 	.svg_bg {
 		background-color: black;
-		/*height: 100%;*/
-		/*width: 100%;*/
 	}
 
 	.test{
@@ -34,6 +38,7 @@
 
 <script>
 	import svgDashboard from '../components/dashboard.vue'
+	import svgDash from '../components/dashboardtest.vue'
 
 	import svgone from '../components/test.svg'
 
@@ -135,7 +140,8 @@
 
 		},
 		components: {
-			svgDashboard
+			svgDashboard,
+			svgDash
 		},
 	}
 </script>
