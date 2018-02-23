@@ -79,18 +79,18 @@
 			<g :style="{'transform':'rotate3d(0,0,1,'+pointData+'deg)','-webkit-transform':'rotate3d(0,0,1,'+pointData+'deg)'}"
 			   class="container_point">
 				<circle
-					cx="96"
+					cx="99"
 					cy="110"
 					r="13"
 					fill="rgb(228,229,237)"
 				>
 				</circle>
 				<path
-					d="M 94 56 l-5 52 a8 8 180 0 0 16 0 l-5 -52 a3 3 180 0 0 -6 0"
+					d="M 95 58 l-5 52 a8 8 180 0 0 16 0 l-5 -52 a3 3 180 0 0 -6 0"
 					class="container_point_path"></path>
 				<circle
-					cx="97"
-					cy="108"
+					cx="98"
+					cy="111"
 					r="3"
 					fill="rgb(228,229,237)"
 				>
@@ -103,7 +103,6 @@
 <style lang="less" type="text/less" scoped>
 	.cps-dashboard {
 		.container {
-
 			&_path {
 				stroke: rgb(228, 229, 237);
 				transform: rotate(150deg);
@@ -220,11 +219,11 @@
 				}
 			}
 			&_point {
-				transform-origin: 96px 110px;
+				transform-origin: 99px 110px;
 				transition: all 1s;
-				&_path {
-					fill: #06D6A0;
 
+				&_path {
+					fill: blue;
 				}
 			}
 		}
@@ -232,6 +231,18 @@
 </style>
 
 <script>
+	// 仪表盘起点
+	let beginData = {
+		line: 10,
+		circle: 156,
+		point: -110
+	};
+	// 仪表盘重点
+	let endData = {
+		line: 378,
+		circle: 390,
+		point: 114
+	};
 	export default {
 		name: "cps-dashboard",
 		props: {
@@ -242,50 +253,48 @@
 			level: {
 				type: [Number, String],
 				default: 5
-			},
+			}
 		},
 		data() {
-			return {
-				// 仪表盘起点
-				beginData: {
-					line: 10,
-					circle: 156,
-					point: -110
-				},
-				// 仪表盘重点
-				endData: {
-					line: 378,
-					circle: 390,
-					point: 114
-				}
-			}
+			return {};
 		},
 		computed: {
 			lineData() {
-				return this.initialValue[this.currentSpeed].line;
+				return (this.initialValue[this.currentSpeed] || beginData).line;
 			},
 			circleData() {
-				return this.initialValue[this.currentSpeed].circle;
+				return (this.initialValue[this.currentSpeed] || beginData).circle;
 			},
 			pointData() {
-				return this.initialValue[this.currentSpeed].point;
+				return (this.initialValue[this.currentSpeed] || beginData).point;
 			},
 			initialValue() {
-				let arr = [], segment, divisor = this.level - 1;
-				for (let i = 0; i < this.level; i++) {
+				let arr = [beginData],
+					segment,
+					divisor = this.level - 1;
+				for (let i = 1; i < divisor; i++) {
 					segment = {
-						line: ((this.endData.line - this.beginData.line) / divisor).toFixed(2),
-						circle: ((this.endData.circle - this.beginData.circle) / divisor).toFixed(2),
-						point: ((this.endData.point - this.beginData.point) / divisor).toFixed(2),
-					}
+						line: ((endData.line - beginData.line) / divisor).toFixed(
+							2
+						),
+						circle: (
+							(endData.circle - beginData.circle) /
+							divisor
+						).toFixed(2),
+						point: (
+							(endData.point - beginData.point) /
+							divisor
+						).toFixed(2)
+					};
 					let item = {
-						line: this.beginData.line + (segment.line * i),
-						circle: this.beginData.circle + (segment.circle * i),
-						point: this.beginData.point + (segment.point * i),
-					}
-					arr.push(item)
+						line: beginData.line + segment.line * i,
+						circle: beginData.circle + segment.circle * i,
+						point: beginData.point + segment.point * i
+					};
+					arr.push(item);
 				}
-				return arr
+				arr.push(endData);
+				return arr;
 			}
 		},
 		methods: {}
