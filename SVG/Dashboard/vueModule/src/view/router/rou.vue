@@ -23,7 +23,9 @@
 		},
 		watch: {},
 		computed: {},
-		methods: {},
+		methods: {
+
+		},
 		created() {
 
 		},
