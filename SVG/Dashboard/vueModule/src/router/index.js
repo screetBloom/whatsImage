@@ -25,6 +25,11 @@ export default new Router({
 			path: '/test',
 			name: 'test',
 			component: (resolve) => require(['@/view/test'], resolve)
+		},
+		{
+			path: '/router',
+			name: 'router',
+			component: (resolve) => require(['@/view/router/rou'], resolve)
 		}
 	]
 })
