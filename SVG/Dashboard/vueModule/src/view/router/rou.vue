@@ -13,7 +13,9 @@
 
 	export default {
 		data() {
-			return {}
+			return {
+				name:'ccccccccccc'
+			}
 		},
 		mounted() {
 
@@ -103,25 +105,41 @@
 
 			// configuration
 			Router.config({mode: 'history'});
-
-			// returning the user to the initial state
-			Router.navigate();
+//
+//			// returning the user to the initial state
+//			Router.navigate();
 
 			// adding routes
-			Router
-			.add(/about/, function () {
-				console.log('about');
-			})
-			.add(/products\/(.*)\/edit\/(.*)/, function () {
-				console.log('products', arguments);
-			})
-			.add(function () {
-				console.log('default');
-			})
-			.check('/products/12/edit/22').listen();
+//			Router
+//			.add(/about/, function () {
+//				console.log('about');
+//			})
+//			.add(/products\/(.*)\/edit\/(.*)/, function () {
+//				console.log('products', arguments);
+//			})
+//			.add(function () {
+//				console.log('default');
+//			})
+//			.check('/products/12/edit/22').listen();
 
 			// forwarding
-			Router.navigate('/about');
+//			Router.navigate('/about');
+
+			console.log(55555555555)
+			console.log(Router.getFragment())
+
+
+			let test= {
+
+				name:'tom',
+				call: function () {
+					console.log(this.name,'   >>this.name')
+				}
+
+			}
+
+			test.call()
+
 
 		},
 		watch: {},
