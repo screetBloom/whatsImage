@@ -52,7 +52,7 @@
 		computed: {},
 		methods: {
 			TemplateEngine(tpl, options) {
-				var reg = /{{(.+?)}}/g,
+				var reg = /{{([\s\S]+?}*)}}/g,
 					reExp = /(^( )?(if|for|else|switch|case|break|{|}))(.*)?/g,
 					code = 'var r=[];\n',
 					cursor = 0,
@@ -93,6 +93,8 @@
 		created() {
 
 		},
-		components: {},
+		components: {
+
+		},
 	}
 </script>
