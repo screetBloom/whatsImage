@@ -125,7 +125,6 @@
 			// forwarding
 //			Router.navigate('/about');
 
-
 			console.log(55555555555)
 			console.log(Router.getFragment())
 
