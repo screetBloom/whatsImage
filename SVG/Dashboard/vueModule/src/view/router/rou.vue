@@ -87,6 +87,7 @@
 							current = self.getFragment();
 							self.check(current);
 						}
+
 					}
 					clearInterval(this.interval);
 					this.interval = setInterval(fn, 50);
