@@ -3,7 +3,6 @@
 sdfsdfsdfsdfdsfsd
 		<br>
 		<br>
-		<div style="height: 80px;width: 100%;background-color: #42b983"></div>
 	</div>
 </template>
 
@@ -30,6 +29,11 @@ sdfsdfsdfsdfdsfsd
 				'<p>none</p>' +
 				'{{}}}';
 
+			this.test(template)
+			console.log(template)
+
+
+
 
 
 
@@ -39,6 +43,18 @@ sdfsdfsdfsdfdsfsd
 
 		},
 		methods: {
+
+			test(index){
+				for(let i=0;i<index.length;i++){
+//					index[i]='?>'
+					console.log(index.length)
+					console.log(index[0],index[i])
+					index[i]='?'
+
+
+				}
+//				console.log(index)
+			}
 
 		},
 		created() {
