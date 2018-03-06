@@ -30,6 +30,11 @@ export default new Router({
 			path: '/router',
 			name: 'router',
 			component: (resolve) => require(['@/view/router/rou'], resolve)
+		},
+		{
+			path: '/skeleton',
+			name: 'skeleton',
+			component: (resolve) => require(['@/view/skeleton/skeleton'], resolve)
 		}
 	]
 })

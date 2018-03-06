@@ -1,0 +1,10 @@
+<svg
+	height="36"
+	width="54"
+	viewBox="0 0 54 36"
+>
+	<rect x="8" y="0" width="38" height="8"
+	      style="fill:rgb(245,245,245);stroke:none;"/>
+	<circle cx="27" cy="29" r="7"
+	        style="fill:rgb(245,245,245); stroke:none;"/>
+</svg>
