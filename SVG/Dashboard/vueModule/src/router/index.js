@@ -38,7 +38,7 @@ export default new Router({
 		},
 		{
 			path: '/ske',
-			name: 'skeleton',
+			name: 'ske',
 			component: (resolve) => require(['@/view/skeleton/ske'], resolve)
 		}
 	]
