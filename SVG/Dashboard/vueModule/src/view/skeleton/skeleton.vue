@@ -14,6 +14,7 @@
 		  width="375"
 		  viewBox="0 0 375 115"
 	  >
+
 		  <!-- 圆角矩形背景 -->
 		  <rect x="5" y="2.5" rx="2" ry="2" width="365" height="110" style="fill:rgb(255,255,255);stroke:none;"/>
 
