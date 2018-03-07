@@ -1,18 +1,50 @@
-<svg width="100%" height="100%" viewbox="0 0 100% 100%">
-  <path id="road" d="M 100, 100 m -64, 0 a 64,64 0 1,0 128,0 a 64,64 0 1,0 -128,0" stroke="#0d5961"
-        stroke-width="6" fill="none"/>
-  <circle
-    cx="100"
-    cy="100"
-    r="64"
-    stroke-width="7"
-    stroke="#15fbff"
-    stroke-linecap="round"
-    fill="none"
-    stroke-dasharray="20 402"
-    style="
-  transform:rotate(-90deg);
-  transform-origin: 100px 100px;"
-  >
-  </circle>
+<svg
+	height="115"
+	width="375"
+	viewBox="0 0 375 115"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<!-- 圆角矩形背景 -->
+	<rect x="5" y="2.5" rx="2" ry="2" width="365" height="110" style="fill:rgb(255,255,255);stroke:none;"/>
+
+	<!-- 左边第1列 -->
+	<rect x="25" y="25" width="62" height="18" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="25" y="55" width="69" height="13" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="25" y="92" width="110" height="10" style="fill:rgb(245,245,245);stroke:none;"/>
+
+	<!-- 左边第2列 -->
+	<rect x="127" y="32" width="40" height="10" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="114" y="46" width="67" height="6" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="135" y="56" width="25" height="10" style="fill:rgb(245,245,245);stroke:none;"/>
+
+	<!-- 左边第3列 -->
+	<rect x="210" y="25" width="63" height="18" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="203" y="55" width="69" height="13" style="fill:rgb(245,245,245);stroke:none;"/>
+
+	<!-- 左边第4列 -->
+	<rect x="297" y="28" width="56" height="15" style="fill:rgb(245,245,245);stroke:none;"/>
+	<rect x="297" y="53" width="55" height="14" style="fill:rgb(245,245,245);stroke:none;"/>
+
+
 </svg>
+
+	%3Csvg
+	height='115'
+	width='375'
+	viewBox='0 0 375 115'
+	xmlns='http://www.w3.org/2000/svg'
+	version='1.1'
+	%3E
+	%3Crect x='5' y='2.5' rx='2' ry='2' width='365' height='110' style='fill:rgb%28255,255,255%29;stroke:none;'/%3E
+	%3Crect x='25' y='25' width='62' height='18' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='25' y='55' width='69' height='13' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='25' y='92' width='110' height='10' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='127' y='32' width='40' height='10' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='114' y='46' width='67' height='6' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='135' y='56' width='25' height='10' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='210' y='25' width='63' height='18' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='203' y='55' width='69' height='13' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='297' y='28' width='56' height='15' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3Crect x='297' y='53' width='55' height='14' style='fill:rgb%28245,245,245%29;stroke:none;'/%3E
+	%3C/svg%3E
