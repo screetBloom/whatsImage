@@ -1,13 +1,5 @@
-/**
-*
-* User: wim_chen
-* Date: 2018/3/6
-* Time: 下午4:22
-*
-*/
-<template>
 
-  <div style="background-color: black">
+<template>
 
 	  <svg
 		  height="115"
@@ -39,27 +31,5 @@
 	  </svg>
 
 
-  </div>
-
-
 </template>
 
-<script>
-    export default {
-        name: 'hello',
-        data() {
-            return {
-                msg: 'Welcome to Your Vue.js App'
-            }
-        },
-	    mounted() {
-        	console.log(555555555)
-	    }
-    }
-</script>
-
-<style scoped>
-
-
-
-</style>
