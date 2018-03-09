@@ -40,6 +40,11 @@ export default new Router({
 			path: '/ske',
 			name: 'ske',
 			component: (resolve) => require(['@/view/skeleton/ske'], resolve)
+		},
+		{
+			path: '/iron',
+			name: 'iron',
+			component: (resolve) => require(['@/view/skeleton/test'], resolve)
 		}
 	]
 })
