@@ -7,22 +7,6 @@
 
 
 
-		<!--<svg style="height:0;width:0;display:none;" version="1.1" xmlns="http://www.w3.org/2000/svg">-->
-			<!--<symbol id="icon-italy" width="150" height="100" viewBox="0 0 3 2">-->
-				<!--<rect width="1" height="2" x="0" fill="#008d46" />-->
-				<!--<rect width="1" height="2" x="1" fill="#ffffff" />-->
-				<!--<rect width="1" height="2" x="2" fill="#d2232c" />-->
-			<!--</symbol>-->
-
-			<!--<symbol id="icon-france" width="150" height="100" viewBox="0 0 3 2">-->
-				<!--<rect width="1" height="2" x="0" fill="#002496" />-->
-				<!--<rect width="1" height="2" x="1" fill="#ffffff" />-->
-				<!--<rect width="1" height="2" x="2" fill="#ee2839" />-->
-			<!--</symbol>-->
-		<!--</svg>-->
-
-		<!--<svg><use xlink:href="#icon-italy"/></svg>-->
-
 
 
 
