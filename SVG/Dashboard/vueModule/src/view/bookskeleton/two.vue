@@ -2,12 +2,6 @@
 <template>
 	<div class="skeleton-box">
 		<div class="skeleton-box-st"></div>
-		<div class="skeleton-box-nd"></div>
-		<div class="skeleton-box-rd"></div>
-		<div class="skeleton-box-4th"></div>
-		<div class="skeleton-box-5th"></div>
-		<div class="skeleton-box-5th"></div>
-
 		<div class="skeleton-box-6th"></div>
 	</div>
 </template>
@@ -24,43 +18,12 @@
 		z-index: 10;
 
 		&-st{
-			height: 144px;
+			height: 100%;
+			margin-top: 5px;
 			background: data-uri(
 				"image/svg+xml;charset=UTF-8",
-				"./skeleton_svg/svg01.svg"
-			);
-			background-size: 100% auto;
-		}
-		&-nd{
-			height: 108px;
-			background: data-uri(
-				"image/svg+xml;charset=UTF-8",
-				"./skeleton_svg/svg02.svg"
-			);
-			background-size: 100% auto;
-		}
-		&-rd{
-			height: 132px;
-			background: data-uri(
-				"image/svg+xml;charset=UTF-8",
-				"./skeleton_svg/svg03.svg"
-			);
-			background-size: 100% auto;
-		}
-		&-4th{
-			height: 76px;
-			background: data-uri(
-				"image/svg+xml;charset=UTF-8",
-				"./skeleton_svg/svg04.svg"
-			);
-			background-size: 100% auto;
-		}
-		&-5th{
-			height: 61px;
-			background: data-uri(
-				"image/svg+xml;charset=UTF-8",
-				"./skeleton_svg/svg05.svg"
-			);
+				"./skeleton_svg/ske.svg"
+			)  no-repeat;
 			background-size: 100% auto;
 		}
 
