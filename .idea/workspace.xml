@@ -50,8 +50,8 @@
       <file leaf-file-name="tpl.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/tpl/tpl.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+            <state relative-caret-position="454">
+              <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -298,14 +298,7 @@
       <workItem from="1520819536636" duration="1227000" />
       <workItem from="1521510667576" duration="20165000" />
       <workItem from="1521595148448" duration="3319000" />
-      <workItem from="1522116493161" duration="48000" />
-    </task>
-    <task id="LOCAL-00020" summary="demo">
-      <created>1517466232763</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1517466232763</updated>
+      <workItem from="1522116493161" duration="64000" />
     </task>
     <task id="LOCAL-00021" summary="demo">
       <created>1517466348605</created>
@@ -643,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522116529476</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Merge branch 'master' of https://github.com/screetBloom/whatsImage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1522116546394</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1522116546394</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63032000" />
+    <option name="totallyTimeSpent" value="63048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -1038,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/tpl/tpl.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        <state relative-caret-position="454">
+          <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
           <folding />
         </state>
       </provider>
