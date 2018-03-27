@@ -1,0 +1,26 @@
+<svg
+	class="skeleton_st"
+	height="144"
+	width="375"
+	viewBox="0 0 375 144"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<g>
+		<!-- 圆角矩形背景 -->
+		<rect x="5" y="2.5" rx="2" ry="2" width="365" height="134" style="fill:rgb(255,255,255);stroke:none;"/>
+		<!-- 灰色小方块群 -->
+		<g>
+			<rect x="21" y="26.5" width="64" height="21" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="22" y="57.5" width="74" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="20" y="106.5" width="40" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="64" y="108.5" width="20" height="13" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="160" y="40.5" rx="10" ry="10" width="55" height="19"
+			      style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="112" y="108.5" width="75" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="295" y="23.5" width="65" height="22" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="285" y="55.5" width="72" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="312" y="106.5" width="43" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+</svg>

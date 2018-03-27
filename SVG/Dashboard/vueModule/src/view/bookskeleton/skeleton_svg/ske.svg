@@ -1,0 +1,85 @@
+
+<svg
+	class="skeleton_st"
+	height="100%"
+	width="100%"
+	viewBox="0 0 375 583"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<g>
+		<rect x="5" y="2.5" rx="2" ry="2" width="365" height="134" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<rect x="21" y="26.5" width="64" height="21" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="22" y="57.5" width="74" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="20" y="106.5" width="40" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="64" y="108.5" width="20" height="13" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="160" y="40.5" rx="10" ry="10" width="55" height="19"
+			      style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="112" y="108.5" width="75" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="295" y="23.5" width="65" height="22" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="285" y="55.5" width="72" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="312" y="106.5" width="43" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+	<g>
+		<rect x="5" y="146.5" rx="2" ry="2" width="365" height="98" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<circle cx="149" cy="171.5" r="10" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="166" y="163.5" width="71" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<line x1="5" y1="196.5" x2="370" y2="196.5"
+			      style="stroke:rgb(245,245,245);stroke-width:1"/>
+			<rect x="14" y="213.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="98" y="212.5" width="148" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+	<g>
+		<rect x="5" y="254.5" rx="2" ry="2" width="365" height="122" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<rect x="11" y="269.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="86" y="270.5" width="189" height="14" style="fill:rgb(245,245,245);stroke:none;"/>
+			<line x1="11" y1="303" x2="364" y2="303"
+			      style="stroke:rgb(245,245,245);stroke-width:1"/>
+			<rect x="28" y="331.5" width="12" height="12" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="67" y="321.5" width="43" height="34" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="138" y="321.5" width="43" height="34" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="206" y="331.5" rx="2" ry="2" width="25" height="13" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="260" y="321.5" width="43" height="34" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="329" y="331.5" width="12" height="12" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+	<g>
+		<rect x="5" y="386.5" rx="2" ry="2" width="365" height="66" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<circle cx="28" cy="419.5" r="14" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="51" y="404.5" width="66" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<circle cx="128" cy="412.5" r="8" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="51" y="424.5" width="190" height="15" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="260" y="411.5" width="46" height="15" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="311" y="405.5" rx="12" ry="12" width="48" height="30" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+	<g>
+		<rect x="5" y="462.5" rx="2" ry="2" width="365" height="51" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<rect x="14" y="479.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="99" y="479.5" width="150" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="343" y="479.5" width="16" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+	<g>
+		<rect x="5" y="523.5" rx="2" ry="2" width="365" height="51" style="fill:rgb(255,255,255);stroke:none;"/>
+		<g>
+			<rect x="14" y="540.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="99" y="540.5" width="150" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="343" y="540.5" width="16" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+
+
+</svg>

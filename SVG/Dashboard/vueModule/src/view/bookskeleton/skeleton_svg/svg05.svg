@@ -1,0 +1,19 @@
+<svg
+	class="skeleton_5th"
+	height="61"
+	width="375"
+	viewBox="0 0 375 61"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<g>
+		<!-- 圆角矩形背景 -->
+		<rect x="5" y="2.5" rx="2" ry="2" width="365" height="51" style="fill:rgb(255,255,255);stroke:none;"/>
+		<!-- 灰色小方块群 -->
+		<g>
+			<rect x="14" y="19.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="99" y="19.5" width="150" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="343" y="19.5" width="16" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+</svg>

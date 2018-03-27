@@ -1,0 +1,22 @@
+<svg
+	class="skeleton_nd"
+	height="108"
+	width="375"
+	viewBox="0 0 375 108"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<g>
+		<!-- 圆角矩形背景 -->
+		<rect x="5" y="2.5" rx="2" ry="2" width="365" height="98" style="fill:rgb(255,255,255);stroke:none;"/>
+		<!-- 灰色小方块群 -->
+		<g>
+			<circle cx="149" cy="27.5" r="10" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="166" y="19.5" width="71" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<line x1="5" y1="52.5" x2="370" y2="52.5"
+			      style="stroke:rgb(245,245,245);stroke-width:1"/>
+			<rect x="14" y="69.5" width="65" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="98" y="68.5" width="148" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+</svg>

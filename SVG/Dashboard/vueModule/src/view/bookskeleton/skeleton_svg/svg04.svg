@@ -1,0 +1,22 @@
+<svg
+	class="skeleton_4th"
+	height="76"
+	width="375"
+	viewBox="0 0 375 76"
+	xmlns="http://www.w3.org/2000/svg"
+	version="1.1"
+>
+	<g>
+		<!-- 圆角矩形背景 -->
+		<rect x="5" y="2.5" rx="2" ry="2" width="365" height="66" style="fill:rgb(255,255,255);stroke:none;"/>
+		<!-- 灰色小方块群 -->
+		<g>
+			<circle cx="28" cy="35.5" r="14" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="51" y="20.5" width="66" height="16" style="fill:rgb(245,245,245);stroke:none;"/>
+			<circle cx="128" cy="28.5" r="8" stroke="none" fill='rgb(245,245,245)'/>
+			<rect x="51" y="40.5" width="190" height="15" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="260" y="27.5" width="46" height="15" style="fill:rgb(245,245,245);stroke:none;"/>
+			<rect x="311" y="21.5" rx="12" ry="12" width="48" height="30" style="fill:rgb(245,245,245);stroke:none;"/>
+		</g>
+	</g>
+</svg>

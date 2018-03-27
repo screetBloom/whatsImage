@@ -45,6 +45,16 @@ export default new Router({
 			path: '/iron',
 			name: 'iron',
 			component: (resolve) => require(['@/view/skeleton/test'], resolve)
+		},
+		{
+			path: '/bookske',
+			name: 'bookske',
+			component: (resolve) => require(['@/view/bookskeleton/one'], resolve)
+		},
+		{
+			path: '/bookske2',
+			name: 'bookske2',
+			component: (resolve) => require(['@/view/bookskeleton/two'], resolve)
 		}
 	]
 })
