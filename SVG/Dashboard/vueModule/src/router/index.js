@@ -55,6 +55,11 @@ export default new Router({
 			path: '/bookske2',
 			name: 'bookske2',
 			component: (resolve) => require(['@/view/bookskeleton/two'], resolve)
-		}
+		},
+    {
+      path: '/calender',
+      name: 'calender',
+      component: (resolve) => require(['@/view/calender/calender2'], resolve)
+    }
 	]
 })
