@@ -42,7 +42,9 @@
 
 ![](http://7xl4c6.com1.z0.glb.clouddn.com/Fj4cRm4UPZ8X7b0OvkskwA2AY7ni)
 
-
+     
+这里放一个小demo，是一个主要基于three.js的小龙喷火的模型
+![dragon](http://7xl4c6.com1.z0.glb.clouddn.com/FppTllneVJgScVOdvsHJ_SPLDdbT)
 
 
 ### AFrame
