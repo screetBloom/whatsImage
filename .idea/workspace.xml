@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52eb34d-e6d1-49d6-b4a8-0f14a985aaa8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/calender/calender.vue" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/calender/calender2.vue" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SVG/Dashboard/vueModule/package-lock.json" afterPath="$PROJECT_DIR$/SVG/Dashboard/vueModule/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/router/index.js" afterPath="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/router/index.js" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +16,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="mytpl.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/tpl/mytpl.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="303">
+                <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,6 +106,7 @@
         <option value="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/router/index.js" />
         <option value="$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/calender/calender2.vue" />
         <option value="$PROJECT_DIR$/SVG/progress/test.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -101,10 +123,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="550" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="515" />
     <option name="y" value="23" />
-    <option name="width" value="890" />
+    <option name="width" value="925" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -138,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,70 +167,11 @@
               <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
               <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="vueModule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="vueModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="vueModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="vueModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="vueModule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="calender" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="whatsImage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="whatsImage" type="462c0819:PsiDirectoryNode" />
-              <item name="SVG" type="462c0819:PsiDirectoryNode" />
-              <item name="progress" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -279,21 +241,11 @@
       <workItem from="1522131233130" duration="245000" />
       <workItem from="1522285240814" duration="251000" />
       <workItem from="1522334690472" duration="4727000" />
-      <workItem from="1522339623153" duration="28000" />
-    </task>
-    <task id="LOCAL-00024" summary="demo">
-      <created>1517535483539</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1517535483539</updated>
-    </task>
-    <task id="LOCAL-00025" summary="demo">
-      <created>1517535675550</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1517535675550</updated>
+      <workItem from="1522339623153" duration="57000" />
+      <workItem from="1522675451281" duration="172000" />
+      <workItem from="1522817512076" duration="169000" />
+      <workItem from="1522837824130" duration="262000" />
+      <workItem from="1523157777352" duration="670000" />
     </task>
     <task id="LOCAL-00026" summary="demo">
       <created>1517535699820</created>
@@ -624,16 +576,31 @@
       <option name="project" value="LOCAL" />
       <updated>1522293677454</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Merge branch 'master' of https://github.com/screetBloom/whatsImage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1522339665125</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1522339665125</updated>
+    </task>
+    <task id="LOCAL-00074" summary="更新小龙喷火模型">
+      <created>1523158490419</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1523158490420</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68318000" />
+    <option name="totallyTimeSpent" value="69620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="23" width="890" height="797" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46296296" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16690241" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -662,20 +629,14 @@
     <MESSAGE value="demo" />
     <MESSAGE value="this is  a vue module" />
     <MESSAGE value="Merge branch 'master' of https://github.com/screetBloom/whatsImage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/screetBloom/whatsImage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="更新小龙喷火模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新小龙喷火模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SVG/Dashboard/transparent/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SVG/Dashboard/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2014">
@@ -923,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/tpl/mytpl.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/skeleton/skeleton.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -1008,5 +962,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SVG/progress/test.html" />
+    <entry file="file://$PROJECT_DIR$/SVG/Dashboard/vueModule/src/view/tpl/mytpl.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="303">
+            <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
