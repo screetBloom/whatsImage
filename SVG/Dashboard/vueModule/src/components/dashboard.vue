@@ -297,6 +297,7 @@
 				return arr;
 			}
 		},
+
 		methods: {}
 	};
 </script>
