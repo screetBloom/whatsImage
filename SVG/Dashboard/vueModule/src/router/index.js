@@ -60,6 +60,11 @@ export default new Router({
       path: '/calender',
       name: 'calender',
       component: (resolve) => require(['@/view/calender/calender2'], resolve)
+    },
+    {
+      path: '/funnel',
+      name: 'funnel',
+      component: (resolve) => require(['@/view/funnel/index'], resolve)
     }
 	]
 })
