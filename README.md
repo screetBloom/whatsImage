@@ -50,7 +50,7 @@
 [http://115.159.100.155/threeJs/animation/dragon.html](http://115.159.100.155/threeJs/animation/dragon.html)
 ![](http://7xl4c6.com1.z0.glb.clouddn.com/Fn7DizD4Pgei2H4OAD3-mMmuNJOW)        
    
-[作者出处](https://moments.epic.net/)
+[参考出处](https://moments.epic.net/)
 
 ### AFrame
 
